@@ -31,13 +31,5 @@ locals {
       topics             = ["frontend-masters", "terraform"]
       visibility         = "private"
     }
-
-    "fem-eci-terraform-aws-service" = {
-      description        = "Automation for GitHub"
-      gitignore_template = "Terraform"
-      name               = "fem-eci-terraform-aws-service"
-      topics             = ["frontend-masters", "terraform"]
-      visibility         = "private"
-    }
   }
 }
